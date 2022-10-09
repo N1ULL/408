@@ -9,7 +9,7 @@ typedef struct LNode //定义单链表节点类型
 
 bool InitList(LinkList &L)
 {
-    L = NULL;//
+    L = NULL;//空表，暂时没有任何结点
     return true;
 }
 
